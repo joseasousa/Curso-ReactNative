@@ -5,8 +5,8 @@ import { createStore } from 'redux';
 import Routes from './Routes';
 import reducers from './reducers';
 
-export default () => (
-  <Provider store={createStore(reducers)}>
-    <Routes />
-  </Provider>
+export default props => (
+    <Provider store={createStore(reducers)}>
+        <Routes />
+    </Provider>
 );

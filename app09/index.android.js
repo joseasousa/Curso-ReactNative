@@ -1,12 +1,4 @@
-import React from 'react';
-import {
-  AppRegistry
-} from 'react-native';
+import { AppRegistry } from 'react-native';
+import App from './src/App';
 
-import App from './src';
-
-const App9 = () => (
-  <App />
-);
-
-AppRegistry.registerComponent('app09', () => App9);
+AppRegistry.registerComponent('app09', () => App);
