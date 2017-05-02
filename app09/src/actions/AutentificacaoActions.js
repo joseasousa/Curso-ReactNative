@@ -12,3 +12,10 @@ export const modificaNome = text => ({
   type: 'modifica_nome',
   payload: text
 });
+
+export const cadastraUsuario = user => (
+  {
+    type: 'cadastra_usuario',
+    payload: user
+  }
+);

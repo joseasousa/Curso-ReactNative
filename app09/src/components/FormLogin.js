@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import { connect } from 'react-redux';
-import { modificaEmail, modificaSenha } from '../actions/AutenticacaoActions';
+import { modificaEmail, modificaSenha } from '../actions/AutentificacaoActions';
 
 const formLogin = props => {
   console.log(props);
